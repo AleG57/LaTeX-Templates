@@ -1,0 +1,51 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+
+%------------------------------------------------------------
+%This block of code defines the information to appear in the
+%Title page
+\title[\insertsectionhead] %optional
+{Analyse et algorithmes de détection pour le traitement du son}
+
+\subtitle{Electcif traitement des sons}
+
+\author[G.~Seuillot, A.~Gracias] % (optional)
+{G.~Seuillot\inst{1} \and A.~Gracias\inst{1}}
+
+\institute[CentraleSupélec] % (optional)
+{
+  \inst{1}%
+  Etudiants à CentraleSupélec 
+}
+
+\date{Janvier 2025}
+
+%\logo{\includegraphics[height=1cm]{overleaf-logo}}
+
+%End of title page configuration block
+%------------------------------------------------------------
+
+
+
+%------------------------------------------------------------
+%The next block of commands puts the table of contents at the 
+%beginning of each section and highlights the current section:
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+%------------------------------------------------------------
+
+
+\begin{document}
+
+\include{slides.tex}
+
+\end{document}

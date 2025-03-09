@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.21)  8 MAR 2025 20:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.21)  9 MAR 2025 09:45
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/alexis/VSCode/LateX/.Frameworks/Fw_Report/Last_Fw/framework.tex
+**/home/alexis/VSCode/LateX/.Frameworks/Fw_Report/Last_Fw/framework
 (/home/alexis/VSCode/LateX/.Frameworks/Fw_Report/Last_Fw/framework.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -764,11 +764,148 @@ Package: listings 2024/02/21 1.10 (Carsten Heinz)
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 ) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
+Library (tcolorbox): 'tcbminted.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
+ (/usr/share/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvrb
+ (/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count365
+\FV@InFile=\read5
+\FV@TabBox=\box82
+\c@FancyVerbLine=\count366
+\FV@StepNumber=\count367
+\FV@OutFile=\write5
+) (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+ (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count368
+\output=\toks48
+\linenoprevgraf=\count369
+\linenumbersep=\dimen315
+\linenumberwidth=\dimen316
+\c@linenumber=\count370
+\c@pagewiselinenumber=\count371
+\c@LN@truepage=\count372
+\c@internallinenumber=\count373
+\c@internallinenumbers=\count374
+\quotelinenumbersep=\dimen317
+\bframerule=\dimen318
+\bframesep=\dimen319
+\bframebox=\box83
+\linenoamsmath@ams@eqpen=\count375
+LaTeX Info: Redefining \\ on input line 3180.
 )
-LaTeX Info: Redefining \Xbar on input line 208.
-\c@tcb@cnt@Syntax=\count365
-\c@tcb@cnt@Input=\count366
-\c@tcb@cnt@Output=\count367
+\c@FancyVerbWriteLine=\count376
+\c@FancyVerbBufferIndex=\count377
+\c@FancyVerbBufferLength=\count378
+\c@FancyVerbBufferLine=\count379
+\c@FV@oldbufferlength=\count380
+\c@FV@TrueTabGroupLevel=\count381
+\c@FV@TrueTabCounter=\count382
+\FV@TabBox@Group=\box84
+\FV@TmpLength=\skip72
+\c@FV@HighlightLinesStart=\count383
+\c@FV@HighlightLinesStop=\count384
+\FV@LoopCount=\count385
+\FV@NCharsBox=\box85
+\FV@BreakIndent=\dimen320
+\FV@BreakIndentNChars=\count386
+\FV@BreakSymbolSepLeft=\dimen321
+\FV@BreakSymbolSepLeftNChars=\count387
+\FV@BreakSymbolSepRight=\dimen322
+\FV@BreakSymbolSepRightNChars=\count388
+\FV@BreakSymbolIndentLeft=\dimen323
+\FV@BreakSymbolIndentLeftNChars=\count389
+\FV@BreakSymbolIndentRight=\dimen324
+\FV@BreakSymbolIndentRightNChars=\count390
+\c@FancyVerbLineBreakLast=\count391
+\FV@LineBox=\box86
+\FV@LineIndentBox=\box87
+\c@FV@BreakBufferDepth=\count392
+\FV@LineWidth=\dimen325
+) (/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (/usr/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (/usr/share/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "framework.w18")...executed.
+
+ (./framework.w18)
+runsystem(rm -- "framework.w18")...executed.
+
+) (/usr/share/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count393
+\xs_countb=\count394
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (/usr/share/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip73
+\fb@frw=\dimen326
+\fb@frh=\dimen327
+\FrameRule=\dimen328
+\FrameSep=\dimen329
+) (/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count395
+\float@exts=\toks49
+\float@box=\box88
+\@float@everytoks=\toks50
+\@floatcapt=\box89
+)
+\minted@appexistsfile=\read6
+\minted@bgbox=\box90
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count396
+\c@minted@pygmentizecounter=\count397
+\@float@every@listing=\toks51
+\c@listing=\count398
+)
+runsystem(mkdir -p _minted-framework)...executed.
+
+ (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count399
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box91
+\tcb@totalupperbox=\box92
+\tcb@totallowerbox=\box93
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count400
+\l__pdf_internal_box=\box94
+))
+Package: xparse 2024-02-18 L3 Experimental document command parser
+))
+LaTeX Info: Redefining \Xbar on input line 213.
+\c@tcb@cnt@Syntax=\count401
+\c@tcb@cnt@Input=\count402
+\c@tcb@cnt@Output=\count403
    defining Unicode char U+2500 (decimal 9472)
    defining Unicode char U+2502 (decimal 9474)
    defining Unicode char U+250C (decimal 9484)
@@ -850,31 +987,31 @@ LaTeX Info: Redefining \Xbar on input line 208.
    defining Unicode char U+2665 (decimal 9829)
    defining Unicode char U+2666 (decimal 9830)
    defining Unicode char U+2663 (decimal 9827)
- (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count368
-\l__pdf_internal_box=\box82
-) (./framework.aux (./Content.aux) (./ANNEXE1.aux))
+runsystem(command -v pygmentize && touch framework.aex)...executed.
+
+runsystem(rm framework.aex)...executed.
+
+ (./framework.aux (./Content.aux) (./ANNEXE1.aux))
 \openout1 = `framework.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 390.
-LaTeX Font Info:    ... okay on input line 390.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 395.
+LaTeX Font Info:    ... okay on input line 395.
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -939,26 +1076,26 @@ Package minitoc(hints) Warning: W0023
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \degres on input line 390.
-LaTeX Info: Redefining \up on input line 390.
-Package hyperref Info: Link coloring OFF on input line 390.
+LaTeX Info: Redefining \degres on input line 395.
+LaTeX Info: Redefining \up on input line 395.
+Package hyperref Info: Link coloring OFF on input line 395.
 (./framework.out) (./framework.out)
-\@outlinefile=\write5
-\openout5 = `framework.out'.
+\@outlinefile=\write7
+\openout7 = `framework.out'.
 
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count369
-\scratchdimen=\dimen315
-\scratchbox=\box83
-\nofMPsegments=\count370
-\nofMParguments=\count371
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count372
-\MPscratchDim=\dimen316
-\MPnumerator=\count373
-\makeMPintoPDFobject=\count374
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count404
+\scratchdimen=\dimen330
+\scratchbox=\box95
+\nofMPsegments=\count405
+\nofMParguments=\count406
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count407
+\MPscratchDim=\dimen331
+\MPnumerator=\count408
+\makeMPintoPDFobject=\count409
+\everyMPtoPDFconversion=\toks53
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -966,6 +1103,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
@@ -977,25 +1115,25 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@lstlisting=\count375
-LaTeX Font Info:    Trying to load font information for U+msa on input line 394.
+\c@lstlisting=\count410
+LaTeX Font Info:    Trying to load font information for U+msa on input line 399.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 394.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 399.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 394.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 399.
  (/usr/share/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 Package minitoc(hints) Info: I0045
 (minitoc(hints))             The \dominitoc command 
 (minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 396.
+(minitoc(hints))              on input line 401.
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM framework.toc on input line 396.
+(minitoc)             PREPARING MINITOCS FROM framework.toc on input line 401.
 Package minitoc Info: I0033
 (minitoc)             Writing framework.mtc1.
 \openout3 = `framework.mtc1'.
@@ -1005,23 +1143,23 @@ Package minitoc Info: I0033
 \openout3 = `framework.mtc2'.
 
  (./framework.toc)
-\tf@toc=\write6
-\openout6 = `framework.toc'.
+\tf@toc=\write8
+\openout8 = `framework.toc'.
 
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 404.
+(fancyhdr)                Please consider using the `twoside' option on input line 409.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 405.
+(fancyhdr)                Please consider using the `twoside' option on input line 410.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.424 \include{Content}
+l.429 \include{Content}
                         [1
 
 ]
@@ -1068,34 +1206,53 @@ Package minitoc(hints) Warning: W0033
 (minitoc(hints))                The caption package should be 
 (minitoc(hints))                loaded BEFORE the minitoc package.
 
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
 
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the framework.log file.
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6
+
+
+] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./framework.aux (./Content.aux) (./ANNEXE1.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `framework.out' has not changed.
 (rerunfilecheck)             Checksum: 437751244C69D8717650E313EC0A860C;440.
  ) 
 Here is how much of TeX's memory you used:
- 33404 strings out of 474116
- 627563 string characters out of 5750249
- 1929187 words of memory out of 5000000
- 55222 multiletter control sequences out of 15000+600000
+ 37089 strings out of 474116
+ 712804 string characters out of 5750249
+ 1930187 words of memory out of 5000000
+ 58825 multiletter control sequences out of 15000+600000
  576004 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,446b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,442b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on framework.pdf (6 pages, 97779 bytes).
+Output written on framework.pdf (7 pages, 98806 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

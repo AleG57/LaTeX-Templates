@@ -9,4 +9,4 @@ LaTeX framework for :
 
 On your LaTeX's project directory, run : 
 
-$ pdltatex --shell-escape main.tex
+$ pdflatex --shell-escape main.tex

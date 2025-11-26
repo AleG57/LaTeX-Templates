@@ -1,6 +1,6 @@
 # LaTeX framework
 
-LaTeX framework for :
+LaTeX frameworks for :
 
 * report
 * beamer

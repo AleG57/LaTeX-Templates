@@ -11,5 +11,5 @@ On LaTeX project directory, run :
 
 ```bash
 #!/bin/bash
-$ pdflatex --shell-escape framework.tex
+pdflatex --shell-escape framework.tex
 ```

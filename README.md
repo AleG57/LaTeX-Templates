@@ -7,6 +7,6 @@ LaTeX frameworks for :
 
 ---
 
-On your LaTeX's project directory, run : 
+On LaTeX project directory, run : 
 
 $ pdflatex --shell-escape framework.tex

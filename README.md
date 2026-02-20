@@ -9,4 +9,7 @@ LaTeX frameworks for :
 
 On LaTeX project directory, run : 
 
+```bash
+#!/bin/bash
 $ pdflatex --shell-escape framework.tex
+```

@@ -1,0 +1,33 @@
+\documentclass[a4paper,12pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}   
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{lipsum}
+\usepackage{hyperref}
+
+\title{Minimal report}
+\author{D. Dupond}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+\lipsum[1]
+
+\newpage
+
+\section{Image}
+
+\lipsum[2]
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pictures/logo.png}
+    \caption{This is a picture}
+\end{figure}
+
+\end{document}

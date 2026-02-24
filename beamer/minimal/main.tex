@@ -1,0 +1,121 @@
+\documentclass[14pt,french,aspectratio=169]{beamer}
+
+\usetheme{default}
+\usecolortheme{default}
+
+% main.tex by Alexis GRACIAS, 2025
+
+%%%%%%%%%%%%
+% PACKAGES %
+%%%%%%%%%%%%
+
+% LANGUAGE
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+% REFERENCES
+\usepackage{hyperref} % Add links to the table of content, files and website
+
+% GRAPHS
+\usepackage{tikz} % Graph package
+
+% IMAGES
+\usepackage{graphicx} % Required for inserting images
+\usepackage{tabto}
+
+% COLOR
+\usepackage[skins,theorems]{tcolorbox} % Frame color package
+\usepackage{amssymb}
+\usepackage[dvipsnames]{xcolor} % Text color package and more colors
+
+% Custom colors
+\definecolor{ao}{rgb}{0.0, 0.0, 1.0}
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+\definecolor{cyan}{rgb}{0.0, 1.0, 1.0}
+\definecolor{glaucous}{rgb}{0.38, 0.51, 0.71}
+\definecolor{electricultramarine}{rgb}{0.25, 0.0, 1.0}
+
+% CAPTIONS
+\usepackage{caption}
+\usepackage{subcaption}
+
+% OTHER
+\usepackage{pdfpages, booktabs, comment, csquotes}
+
+% MATH
+\usepackage{amsmath,amsfonts,mathtools,stmaryrd} % Math libraries
+
+\usepackage{listings} % required for specific languages
+\lstset{ % Set listing package options
+    language=bash, % choose the language of the code
+    basicstyle=\fontfamily{pcr}\selectfont\footnotesize\color{red},
+    keywordstyle=\color{black}\bfseries, % style for keywords
+    numbers=none, % where to put the line-numbers
+    numberstyle=\tiny, % the size of the fonts that are used for the line-numbers     
+    backgroundcolor=\color{white},
+    showspaces=false, % show spaces adding particular underscores
+    showstringspaces=false, % underline spaces within strings
+    showtabs=false, % show tabs within strings adding particular underscores
+    frame=single, % adds a frame around the code
+    tabsize=2, % sets default tabsize to 2 spaces
+    rulesepcolor=\color{gray},
+    rulecolor=\color{black},
+    captionpos=b, % sets the caption-position to bottom
+    breaklines=true, % sets automatic line breaking
+    breakatwhitespace=false, 
+}
+
+%%%%%%%%%%%%
+% COMMANDS %
+%%%%%%%%%%%%
+
+\lstset{aboveskip=\baselineskip,belowskip=\baselineskip,basicstyle=\ttfamily} % Formating line break after bash commands
+
+% Rules for \bar{x} and \overline{x} commands
+\makeatletter
+\newcommand*{\Xbar}{}%
+\DeclareRobustCommand*{\Xbar}{%
+  \mathpalette\@Xbar{}%
+}
+
+\newcommand*{\@Xbar}[2]{%
+  % #1: math style
+  % #2: unused (empty)
+  \sbox0{$#1\mathrm{X}\m@th$}%
+  \sbox2{$#1X\m@th$}%
+  \rlap{%
+    \hbox to\wd2{%
+      \hfill
+      $\overline{%
+        \vrule width 0pt height\ht0 %
+        \kern\wd0 %
+      }$%
+    }%
+  }%
+  \copy2 %
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%
+% DOCUMENTS SETTINGS %
+%%%%%%%%%%%%%%%%%%%%%%
+
+% Fist page
+\title{\Huge Minimal beamer}
+\author{\LARGE J. Dupond}
+\date{\Large \today}
+
+%%%%%%%%%%%%
+% DOCUMENT %
+%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+\large \tableofcontents
+\normalsize
+
+\include{slides}
+
+\end{document}

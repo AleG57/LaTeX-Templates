@@ -20,7 +20,6 @@
 \setbeamercolor{page number in head/foot}{bg=mqdeepred, fg=mqlightgray}
 
 % FOOTNOTE ARRANGEMENTS
-
 \makeatletter
 \setbeamertemplate{footline}{
   \leavevmode%
@@ -40,64 +39,41 @@
 \beamertemplatenavigationsymbolsempty
 
 
-% TITLE, AUTHORS, INSTITUTE, DATE
+%%%%%%%%%%%%%%%%%%%%%%
+% DOCUMENTS SETTINGS %
+%%%%%%%%%%%%%%%%%%%%%%
 
-\title[Short Title]{Full Title of the Presentation \\ \textit{Subtitle or Reference, if any}}
-\author[Short Author Name]{Full Author Name}
-\institute[Short Institute Name]{Full Institute Name}
-\date{Presentation Date}
+\usetheme{Madrid}
+\usecolortheme{default}
 
-% LOGO
-%\titlegraphic{\includegraphics[height=2.5cm]{logo.jpg}} % Change the logo path as needed
+% Title and subtitle
+\title[\insertsectionhead]
+{Title of the beamer}
+
+\subtitle{Subtitle of the beamer}
+
+\author[A.~Dupond, G.~Toto] % Authors
+{A.~Dupond\inst{1} \and G.~Toto\inst{1}}
+
+\institute[Special institute] % Institute's name
+{
+  \inst{1}
+    Special institute professors
+}
+
+\date{July 2026}
+
+% Table of content at the begining of all sections
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 
 \begin{document}
 
-\begin{frame}
-    \titlepage
-\end{frame}
-
-\begin{frame}{Outline}
-    \tableofcontents
-\end{frame}
-
-% Section and Frame examples
-\section{Introduction}
-\begin{frame}{Motivation}
-    \begin{itemize}
-        \item Add your motivation points here.
-        \item Use this format to describe your content.
-    \end{itemize}
-\end{frame}
-
-\begin{frame}{Introduction}
-    \begin{itemize}
-        \item Highlight the main objectives or contributions of your work.
-        \item Add more details as needed.
-    \end{itemize}
-\end{frame}
-
-\section{Main Content Section}
-\begin{frame}{First Main Topic}
-    \begin{itemize}
-        \item Discuss the key points of your first main topic.
-        \item Include relevant equations, graphs, or figures.
-    \end{itemize}
-\end{frame}
-
-% Add more sections and frames as necessary
-
-\section{Conclusion}
-\begin{frame}{Conclusion}
-    \begin{itemize}
-        \item Summarize the key takeaways from your presentation.
-        \item Mention any future work or open questions.
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-    \centering
-    \textbf{Thank you!}\\
-    Questions?
-\end{frame}
+\include{slides.tex}
 
 \end{document}

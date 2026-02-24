@@ -1,0 +1,75 @@
+\chapter{The first chapter}
+\section{Section 1}
+\subsection{Subsection 1}
+
+\lipsum[1]
+
+\subsection{Subsection 2}
+
+\lipsum[2]
+\lipsum[3]
+
+\chapter{The second chapter is about pictures !}
+
+\begin{figure}[hbt!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pictures/logo.png}
+    \caption{This is a pretty good picture}
+    \label{fig:photo1}
+\end{figure}
+
+\section{Section 3}
+\subsection{Subsection 1}
+
+\lipsum[4]
+\lipsum[5]
+
+\newpage
+
+\subsection{Subsection 2}
+
+\lipsum[6]
+
+\chapter{The third chapter is about coding !}
+
+\noindent This is a very sophisticated algorithm : 
+
+\begin{mintedbox}{python}
+def hello():
+    print("Hello world !")
+\end{mintedbox}
+
+\begin{mintedbox}{cpp}
+#include <iostream>
+int main() {
+    std::cout << "Hello world!" << std::endl;
+    return 0;
+}
+\end{mintedbox}
+
+\begin{mintedbox}{javascript}
+function hello() {
+    console.log("Hello world!");
+}
+hello();
+\end{mintedbox}
+
+\chapter{The last chapter is about math !}
+
+\begin{Syntax}{Pythagora's theorem}{}
+    $c^2 = a^2 + b^2$
+\end{Syntax}
+
+\begin{Input}{Property}{}
+    $|\vec{u} + \vec{v}| \le |\vec{u}| + |\vec{v}\|$
+\end{Input}
+
+\begin{Output}{Definition}{}
+    $e^x = \sum_{n=0}^{+\inf} \frac{x^n}{n!}, \quad x \in \mathbb{R}$
+\end{Output}
+
+Schrödinger's equation
+
+\begin{tcolorbox}
+    $i\hbar \frac{\partial \psi}{\partial t} = - \frac{\hbar^2}{2m} \nabla^2 \psi + V(\vec{r},t)\psi$
+\end{tcolorbox}

@@ -1,8 +1,8 @@
 \begin{thebibliography}{1}
 
-\bibitem{GRACIAS2026}
-Alexis Gracias.
-\newblock This is a citation.
-\newblock {\em Journal of Science}, 1(1):1--10.
+\bibitem{maxwell1873}
+James~Clerk Maxwell.
+\newblock {\em A Treatise on Electricity and Magnetism}, volume~1.
+\newblock Clarendon Press, Oxford, 1873.
 
 \end{thebibliography}

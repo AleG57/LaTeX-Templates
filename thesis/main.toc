@@ -1,5 +1,9 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
-\contentsline {chapter}{\numberline {2}A chapter}{11}{chapter.2}%
-\contentsline {chapter}{Appendices}{14}{section*.8}%
-\contentsline {chapter}{Appendices}{15}{section*.9}%
+\contentsline {chapter}{\numberline {1}A chapter.}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}First section}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Second section}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Third section}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}First subsection}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Second subsection}{4}{subsection.1.3.2}%
+\contentsline {chapter}{Bibliographie}{5}{section*.6}%
+\contentsline {chapter}{Liste of Annexes}{6}{appendix*.9}%

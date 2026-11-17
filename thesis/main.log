@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.12)  17 NOV 2026 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.12)  17 NOV 2026 11:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2231,11 +2231,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 \pydata@fh@_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted=\write11
 \openout11 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
 
-runsystem(latexminted config  --timestamp 20261117105304 FAD58DE7366495DB4650CF
+runsystem(latexminted config  --timestamp 20261117112137 FAD58DE7366495DB4650CF
 EFAC2FCD61)...executed.
 
  (./_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20261117105304 FAD58DE7366495DB4
+runsystem(latexminted cleanconfig  --timestamp 20261117112137 FAD58DE7366495DB4
 650CFEFAC2FCD61)...executed.
 
 
